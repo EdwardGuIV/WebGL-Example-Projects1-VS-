@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebGL Example Projects1 (VS)", "WebGL Example Projects1 (VS)\", "{3225D8D1-3AE9-4A21-A27A-8B4C8F25E885}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49862"
+		Debug.AspNetCompiler.PhysicalPath = "WebGL Example Projects1 (VS)\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49862\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49862"
+		Release.AspNetCompiler.PhysicalPath = "WebGL Example Projects1 (VS)\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49862\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49862"
+		SlnRelativePath = "WebGL Example Projects1 (VS)\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3225D8D1-3AE9-4A21-A27A-8B4C8F25E885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3225D8D1-3AE9-4A21-A27A-8B4C8F25E885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860E7DE2-DD1D-4F53-B881-A0850F2C9468}
+	EndGlobalSection
+EndGlobal

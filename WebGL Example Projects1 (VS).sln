@@ -25,6 +25,30 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebGL Example Projects1 (VS
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example Projects", "Example Projects", "{7E2EC2BF-D43F-4A7F-ACAF-42AADA7BCAA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrawRectangle", "DrawRectangle", "{CAB8E18C-4356-4ADF-AD1A-56DF0D6A32C8}"
+	ProjectSection(SolutionItems) = preProject
+		DrawRectangle.html = DrawRectangle.html
+		DrawRectangle.js = DrawRectangle.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloCanvas", "HelloCanvas", "{A70E1A73-26BA-4817-89B2-4DB8D64ADFCC}"
+	ProjectSection(SolutionItems) = preProject
+		HelloCanvas.html = HelloCanvas.html
+		HelloCanvas.js = HelloCanvas.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebGLDevtools", "WebGLDevtools", "{5FE23EFC-9DAE-40AD-9EE7-DDF4B2EB3649}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{AD162A55-EA1A-41CD-81EB-8A136BF1A93A}"
+	ProjectSection(SolutionItems) = preProject
+		cuon-matrix.js = cuon-matrix.js
+		cuon-utils.js = cuon-utils.js
+		webgl-debug.js = webgl-debug.js
+		webgl-utils.js = webgl-utils.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +59,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAB8E18C-4356-4ADF-AD1A-56DF0D6A32C8} = {7E2EC2BF-D43F-4A7F-ACAF-42AADA7BCAA6}
+		{A70E1A73-26BA-4817-89B2-4DB8D64ADFCC} = {7E2EC2BF-D43F-4A7F-ACAF-42AADA7BCAA6}
+		{5FE23EFC-9DAE-40AD-9EE7-DDF4B2EB3649} = {7E2EC2BF-D43F-4A7F-ACAF-42AADA7BCAA6}
+		{AD162A55-EA1A-41CD-81EB-8A136BF1A93A} = {5FE23EFC-9DAE-40AD-9EE7-DDF4B2EB3649}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {860E7DE2-DD1D-4F53-B881-A0850F2C9468}
